@@ -38,8 +38,18 @@ body {
     padding: 20px;
   }
   &.top {
-    top: 104px ;
+    top: 104px;
   }
+}
+
+.modal-close {
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  background-color: 0 0;
 }
 
 .white-popup {
