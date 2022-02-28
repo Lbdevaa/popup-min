@@ -36,6 +36,10 @@ body {
     justify-content: center;
     min-height: 100%;
     padding: 20px;
+    >div {
+      transform: translate(0,-100%);
+      transition: all .4s ease;
+    }
   }
   &.top {
     top: 104px;
